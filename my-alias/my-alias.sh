@@ -16,7 +16,7 @@ cat<<EOF
 #!/bin/bash
 
 #set special alias
-alias "$user"="[ -d /home/$user ] && cd /home/$user || (mkdir /home/$user && cd /home/$user)"
+alias "$user"="([ -d /home/$user ] || mkdir /home/$user) && cd /home/$user"
 alias logs="cd ${logs_path[$my_ip]}"
 alias log="tail -fn 200"
 
