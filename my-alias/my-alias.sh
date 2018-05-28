@@ -21,9 +21,9 @@ alias logs="cd ${logs_path[$my_ip]}"
 alias log="tail -fn 200"
 
 #set common alias
-alias l.='ls -d .* --color=auto'
-alias ll='ls -l --color=auto'
-alias ls='ls --color=auto'
+alias l.='ls -d .* -h --color=auto --time-style=long-iso'
+alias ll='ls -l -h --color=auto --time-style=long-iso'
+alias ls='ls -h --color=auto --time-style=long-iso'
 alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
