@@ -1,8 +1,14 @@
 #!/bin/bash
 
 #设置
-name=".my-alias"
+if [ ! -n "$1" ] ;then
 user="me"
+else
+user=$1
+fi
+echo "create account: $user"
+
+name=".$user-alias"
 declare -A logs_path=(
 ["127.0.0.1"]="/var/log1"
 ["127.0.0.2"]="/var/log2"
@@ -37,4 +43,3 @@ EOF
 #执行
 . "/root/$name"
 echo "setting success..."
-
