@@ -38,3 +38,13 @@ EOF
 . "/root/$name"
 echo "setting success..."
 
+#清理
+sed -i "/$name/d" /root/.bashrc > /dev/null
+
+#配置
+echo ". /root/$name" >> /root/.bashrc
+
+#生效
+. /root/.bashrc
+echo "install success..."
+
