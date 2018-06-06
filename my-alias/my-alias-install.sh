@@ -42,7 +42,6 @@ EOF
 
 #执行
 . "/root/$name"
-echo "setting success..."
 
 #清理
 sed -i "/$name/d" /root/.bashrc > /dev/null
