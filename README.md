@@ -11,7 +11,7 @@ __使用命令：__
 `wget -N https://raw.githubusercontent.com/frcoder-lh/my-linux/master/my-alias/my-alias.sh && . my-alias.sh [yourname]`  
 或者 `wget -N http://dwz.littletools.ml/my-alias && . my-alias.sh [yourname]`
 ### 1.2 长期使用（重新登陆也有效）
-__脚本地址：__[my-alias-install](https://raw.githubusercontent.com/frcoder-lh/my-linux/master/my-alias/my-alias-install.sh)  
+__脚本地址：__[my-alias-install.sh](https://raw.githubusercontent.com/frcoder-lh/my-linux/master/my-alias/my-alias-install.sh)  
 __使用命令：__  
 `wget -N https://raw.githubusercontent.com/frcoder-lh/my-linux/master/my-alias/my-alias-install.sh && . my-alias.sh [yourname]`  
 或者 `wget -N http://dwz.littletools.ml/my-alias-install && . my-alias.sh [yourname]`
